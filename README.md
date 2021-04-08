@@ -14,7 +14,7 @@ While most of our destinations where within Europe:
 
 ![](data/Number_of_flights_by_destination2.png)
 
-Most of our emissions came from our few oversea flights:
+Most of our CO2 emissions came from our few oversea flights:
 
 ![](data/Flight_emissions_by_destination2.png)
 
