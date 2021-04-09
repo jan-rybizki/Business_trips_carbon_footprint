@@ -35,4 +35,5 @@ links:
 - Analysis by Milan Klöwer: https://github.com/milankl/CarbonFootprintAGU
 
 Main contributors to this repository and the talks within the sustainability group where (in alphabetical order):
+
 Christian Fendt, Diana Kossakowski, Felix Bosco, Gregor Seidel, Jan Rybizki
