@@ -33,3 +33,6 @@ links:
 - travel to co2: https://www.bbc.com/news/science-environment-49349566
 - tool from Didier Barret: https://travel-footprint-calculator.irap.omp.eu/
 - Analysis by Milan Klöwer: https://github.com/milankl/CarbonFootprintAGU
+
+Main contributors to this repository and the talks within the sustainability group where (in alphabetical order):
+Christian Fendt, Diana Kossakowski, Felix Bosco, Gregor Seidel, Jan Rybizki
