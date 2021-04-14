@@ -1,0 +1,37 @@
+From the travel department we got an xlsx file. 
+We classified by hand the purpose into 4 categories:
+Observation, Collaboration, Conference, Comissioning
+We also added a column that determines the distance roughly:
+Nearby, Germany, Europe, Overseas
+
+Then for the csv file conversion we needed to:
+- find and replace all ',' with ';'.
+- find and replace '#' with ':'
+
+This can be turned into csv file via:
+
+pip install xlsx2csv
+
+xlsx2csv Reiseübersicht_new_country_code_CF.xlsx travel_list.csv
+
+Then, via ipython --pylab:
+
+x = np.genfromtxt('travel_list.csv', delimiter=",", names = True, dtype = None) 
+from numpy.lib.recfunctions import drop_fields, append_fields
+datum = x.Endedatum_Reise 
+year = np.empty(len(datum), np.int16) 
+month = np.empty(len(datum), np.int16) 
+x = drop_fields(x, ['Beginndatum_Reise','Grund_der_Reise','Endedatum_Reise'], usemask=False, asrecarray=True)
+x = append_fields(x, ['month','year'],(month,year), usemask=False, asrecarray=True) 
+names = ""
+for item in x.dtype.names: 
+    names += item 
+    names += ", " 
+names = names[:-2] 
+
+np.savetxt('travel_list_reduced.csv',x, delimiter=',', fmt = ('%d,%s,%s,%s,%s,%d,%d'),header = names)
+
+# For loading that file do:
+x = np.genfromtxt('travel_list_reduced.csv', delimiter=",", names = True, dtype = None, encoding = None)
+
+This file now goes into the repository. From there on we work with the notebooks.
