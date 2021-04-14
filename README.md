@@ -18,11 +18,11 @@ Most of our CO2 emissions came from our few oversea flights:
 
 ![](data/Flight_emissions_by_destination2.png)
 
-Since March 2020 we know that we can do with less flight:
+Since March 2020 we know that we can do with less flights:
 
 ![](data/covid_impact.png)
 
-The talk, which the our sustainability group held in March 2021 at MPIA can be found [here](https://github.com/jan-rybizki/MPIA_travel_emissions/blob/main/data/Flying%20at%20MPIA%20summary%20short.pdf).
+The summary slides from our talks, which the sustainability group held in March 2021 at MPIA can be found [here](https://github.com/jan-rybizki/MPIA_travel_emissions/blob/main/data/Flying%20at%20MPIA%20summary%20short.pdf).
 
 This tool can be used to approximately assess/monitor the emissions from business trips. Connectivity to the SAP system of MPG is given. But the data can also be processed using other tools, e.g. the CO2 calculator of [Didier Barret](https://travel-footprint-calculator.irap.omp.eu/).
 
@@ -34,6 +34,6 @@ links:
 - tool from Didier Barret: https://travel-footprint-calculator.irap.omp.eu/
 - Analysis by Milan Klöwer: https://github.com/milankl/CarbonFootprintAGU
 
-Main contributors to this repository and the talks within the sustainability group where (in alphabetical order):
+Main contributors to this repository and the talks within the local sustainability group where (in alphabetical order):
 
 Christian Fendt, Diana Kossakowski, Felix Bosco, Gregor Seidel, Jan Rybizki
