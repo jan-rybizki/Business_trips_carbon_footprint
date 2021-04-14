@@ -1,6 +1,6 @@
 # MPIA_travel_emissions
 The sustainability group at MPIA wants to explore the CO2 emitted by their travels.
-We got an excel sheet from our travel department (can be extracted from the MPG-wide SAP system). But we exclude it from this repository for data safety reasons and just add an example file.
+We got an excel sheet from our travel department (can be extracted from the MPG-wide SAP system, see [conversion instructions](https://github.com/jan-rybizki/Business_trips_carbon_footprint/blob/main/data/instructions_for_xlsx2csv_conversion.txt)). But we exclude it from this repository for data safety reasons and just add an example file.
 
 We calculated the distances traveled taking the direct line between Heidelberg and the destination, multiplying by 2 (return flight) and adding 20% (no direct connection). Then we used the CO2perkm conversion from [Didier Barret](https://travel-footprint-calculator.irap.omp.eu/) (the average of the calculators that use a multiplication factor of 2). We also assume that between 500 and 2000km we linearly transition from 100% train rides (100gCO2/km) to 100% flights. The resulting chart looks like this:
 
